@@ -1,19 +1,23 @@
+// Importar opções de pratos
 import enroladinhoMignonImg from './assets/pratos/enroladinho-mignon.jpeg';
 import casal20Img from './assets/pratos/casal-20.jpeg';
 import burguerPicanhaImg from './assets/pratos/burguer-picanha.jpeg';
 import fishChipsImg from './assets/pratos/fish-chips.jpeg';
 import risotoCamaraoTrufadoImg from './assets/pratos/risoto-camarao-trufado.jpeg';
 
+// Importar opções de sobremesas
 import brownieImg from './assets/sobremesas/brownie.jpeg';
 import cocadaFornoImg from './assets/sobremesas/cocada-forno.jpeg';
 import petitGateauImg from './assets/sobremesas/petit-gateau.jpeg';
 
+// Importar opções de bebidas
 import aguaSemGasImg from './assets/bebidas/agua-sem-gas.jpeg';
 import aguaComGasImg from './assets/bebidas/agua-com-gas.jpeg';
 import cocaColaImg from './assets/bebidas/coca-cola.jpeg';
 import guaranaImg from './assets/bebidas/guarana.jpeg';
 import heinekenImg from './assets/bebidas/heineken.jpeg';
 
+// Detalhes dos pratos
 export const enroladinhoMignon = {
   nome: 'Enroladinho de Mignon',
   preco: 'R$ 64,90',
@@ -48,6 +52,7 @@ const risotoCamaraoTrufado = {
     'Arroz Arbóreo, camarões salteados no azeite trufado e crocantes de panko',
 };
 
+// Detalhes das sobremesas
 const brownie = {
   nome: 'Brownie',
   preco: 'R$ 32,90',
@@ -70,6 +75,7 @@ const petitGateau = {
     'Bolo quente recheado com ganache de chocolate, leite condensado e castanha de caju',
 };
 
+// Detalhes das bebidas
 const aguaSemGas = {
   nome: 'Água sem gás',
   preco: 'R$ 6,90',
@@ -101,14 +107,7 @@ const heineken = {
   descricao: '355ml',
 };
 
-export const pratosPrincipais = [
-  burguerPicanha,
-  enroladinhoMignon,
-  casal20,
-  fishChips,
-  risotoCamaraoTrufado,
-];
-
+// Exporta listas de categorias do cardápio
+export const pratosPrincipais = [burguerPicanha, enroladinhoMignon, casal20, fishChips, risotoCamaraoTrufado];
 export const sobremesas = [brownie, cocadaForno, petitGateau];
-
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken];
